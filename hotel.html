@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travel Planning System</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel = "stylesheet" href = "font/fonts.css">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/utility.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+</head>
+<body>
+<div class="all">
+<!-- navbar  -->
+<nav class = "navbar">
+    <div class = "container flex">
+        <a href = "index.html" class = "site-brand">
+            Best<span>Tours</span>
+        </a>
+
+        <button type = "button" id = "navbar-show-btn" class = "flex">
+            <i class = "fas fa-bars"></i>
+        </button>
+        <div id = "navbar-collapse">
+            <button type = "button" id = "navbar-close-btn" class = "flex">
+                <i class = "fas fa-times"></i>
+            </button>
+            <ul class = "navbar-nav">
+                <li class = "nav-item">
+                    <a href = "index.html" class = "nav-link">Home</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "about.html" class = "nav-link">About Us</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "hotel.html" class = "nav-link">Hotels</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "vehicle.html" class = "nav-link">Vehicles</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "travel_plans.html" class = "nav-link">Travel Plans</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "gallery.html" class = "nav-link">Gallery</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "booking.html" class = "nav-link">Booking</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "contact.html" class = "nav-link">Contact</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "login.html" class = "nav-link">User</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "admin.html" class = "nav-link">Admin</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end of navbar  -->
+
+    <!-- header -->
+    <header class = "flex header-sm">
+        <div class = "container">
+            <div class = "header-title">
+                <h1>Hotels</h1>
+                <p>Book your stay at the best hotels in World, offering a variety of amenities and experiences to suit every traveler's needs.</p>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+<!-- blog section -->
+<section id = "blog" class = "py-4">
+    <div class = "container">
+<!--        <div class = "title-wrap">-->
+<!--            <h2 class = "sm-title">read these blog for information</h2>-->
+<!--            <h3 class = "lg-title">recent blog</h3>-->
+<!--        </div>-->
+
+        <div class = "blog-row">
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-the-blue-water.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Blue Water Hotel Wadduwa</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 600 <br><br>
+                        Opt-2 (USD) = 400 <br><br>
+                        Opt-3 (USD) = 800 <br><br>
+                        Opt-4 (USD) = 750
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-anantara-kalutara-resort.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Anantara Hotel Kalutara</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 650 <br><br>
+                        Opt-2 (USD) = 450 <br><br>
+                        Opt-3 (USD) = 900 <br><br>
+                        Opt-4 (USD) = 800
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Light House.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Light House Hotel Galle</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 700 <br><br>
+                        Opt-2 (USD) = 560 <br><br>
+                        Opt-3 (USD) = 850 <br><br>
+                        Opt-4 (USD) = 740
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Jetwing - Negombo.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Jetwing - Cairo</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 750 <br><br>
+                        Opt-2 (USD) = 550 <br><br>
+                        Opt-3 (USD) = 915 <br><br>
+                        Opt-4 (USD) = 780
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-centara-passikudah-resort.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Malu Malu Hotel Cape Town</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 560 <br><br>
+                        Opt-2 (USD) = 460 <br><br>
+                        Opt-3 (USD) = 790 <br><br>
+                        Opt-4 (USD) = 660
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-the-kingsbury-hotel.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Kingsbury Hotel Colombo</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 790 <br><br>
+                        Opt-2 (USD) = 700 <br><br>
+                        Opt-3 (USD) = 920 <br><br>
+                        Opt-4 (USD) = 870
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Hikka Tranz.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Hikka Tranz UK</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 460 <br><br>
+                        Opt-2 (USD) = 380 <br><br>
+                        Opt-3 (USD) = 550 <br><br>
+                        Opt-4 (USD) = 500
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-The Lake Hotel polonnaruwa.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Lake Hotel Polonnaruwa</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 380 <br><br>
+                        Opt-2 (USD) = 300 <br><br>
+                        Opt-3 (USD) = 400 <br><br>
+                        Opt-4 (USD) = 360
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Jetwing - Jaffna.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Jetwing - Jaffna</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 760 <br><br>
+                        Opt-2 (USD) = 680 <br><br>
+                        Opt-3 (USD) = 850 <br><br>
+                        Opt-4 (USD) = 790
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-araliya-green-hills-hotel.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Araliya Green Hills Nuwara Eliya</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 465 <br><br>
+                        Opt-2 (USD) = 400 <br><br>
+                        Opt-3 (USD) = 500 <br><br>
+                        Opt-4 (USD) = 490
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-the-grand-hotel-kandy.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Grand Hotel Nuwara Eliya - Heritage Grand</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 765 <br><br>
+                        Opt-2 (USD) = 680 <br><br>
+                        Opt-3 (USD) = 810 <br><br>
+                        Opt-4 (USD) = 750
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-palmstone-retreat-kithulgala.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Palmstone Retreat, Kithulgala</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 670 <br><br>
+                        Opt-2 (USD) = 600 <br><br>
+                        Opt-3 (USD) = 710 <br><br>
+                        Opt-4 (USD) = 650
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-heritage-hotel-anuradhapura.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Heritage Hotel, Anuradhapura</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 105 <br><br>
+                        Opt-2 (USD) = 900 <br><br>
+                        Opt-3 (USD) = 150 <br><br>
+                        Opt-4 (USD) = 135
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-The Grand Kandyan Hotel,.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Grand Kandyan Hotel, Kandy</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 590 <br><br>
+                        Opt-2 (USD) = 510 <br><br>
+                        Opt-3 (USD) = 660 <br><br>
+                        Opt-4 (USD) = 620
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-nine-skies.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Nine Skies, Demodara</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 770 <br><br>
+                        Opt-2 (USD) = 710 <br><br>
+                        Opt-3 (USD) = 830 <br><br>
+                        Opt-4 (USD) = 790
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Marki Villa-ella.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Marki Villa, Ella</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 750 <br><br>
+                        Opt-2 (USD) = 690 <br><br>
+                        Opt-3 (USD) = 810 <br><br>
+                        Opt-4 (USD) = 760
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-The Peacock Beach Resort,.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Peacock Beach Resort, Hambanthota</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 220 <br><br>
+                        Opt-2 (USD) = 180 <br><br>
+                        Opt-3 (USD) = 280 <br><br>
+                        Opt-4 (USD) = 250
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Shangri-La, Hambanthota.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Shangri-La, Hambanthota</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 870 <br><br>
+                        Opt-2 (USD) = 840 <br><br>
+                        Opt-3 (USD) = 930 <br><br>
+                        Opt-4 (USD) = 880
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-ekho-safari.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">EKHO Saffari, Tissamaharamaya</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 160 <br><br>
+                        Opt-2 (USD) = 115 <br><br>
+                        Opt-3 (USD) = 190 <br><br>
+                        Opt-4 (USD) = 165
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-heritance-kandalama.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Heritance, Kandalama- Dambulla</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 890 <br><br>
+                        Opt-2 (USD) = 830 <br><br>
+                        Opt-3 (USD) = 970 <br><br>
+                        Opt-4 (USD) = 900
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Amaranthé Bay Resort & spa trinco.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Amaranthé Bay Resort & Spa, Trincomalee</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 350 <br><br>
+                        Opt-2 (USD) = 300 <br><br>
+                        Opt-3 (USD) = 410 <br><br>
+                        Opt-4 (USD) = 370
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-bellevue-beach-resorts.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Bellevue Beach - Nilaveli</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 550 <br><br>
+                        Opt-2 (USD) = 490 <br><br>
+                        Opt-3 (USD) = 590 <br><br>
+                        Opt-4 (USD) = 550
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-jetwing-surf.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Jetwing Surf, Pottuwil</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 560 <br><br>
+                        Opt-2 (USD) = 500 <br><br>
+                        Opt-3 (USD) = 630 <br><br>
+                        Opt-4 (USD) = 570
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-The Blue Wave, Arugambay.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Blue Wave, Arugambay</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 380 <br><br>
+                        Opt-2 (USD) = 350 <br><br>
+                        Opt-3 (USD) = 410 <br><br>
+                        Opt-4 (USD) = 370
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-jetwing-yala.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Jetwing – Yala, Paltupana</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 590 <br><br>
+                        Opt-2 (USD) = 550 <br><br>
+                        Opt-3 (USD) = 630 <br><br>
+                        Opt-4 (USD) = 580
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-the-palmyrah-house.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Palmyrah House, Mannar</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 550 <br><br>
+                        Opt-2 (USD) = 510 <br><br>
+                        Opt-3 (USD) = 590 <br><br>
+                        Opt-4 (USD) = 540
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-The Grand Mountain matale.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">The Grand Mountain Mathale</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 290 <br><br>
+                        Opt-2 (USD) = 270 <br><br>
+                        Opt-3 (USD) = 350 <br><br>
+                        Opt-4 (USD) = 300
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Amaloh Boutique Resort,matara.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Amaloh Boutique Resort, Matara</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 450 <br><br>
+                        Opt-2 (USD) = 420 <br><br>
+                        Opt-3 (USD) = 490 <br><br>
+                        Opt-4 (USD) = 460
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Tangerine Beach Hotel,kaluthara.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Tangerine Beach Hotel, Kalutara</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 340 <br><br>
+                        Opt-2 (USD) = 310 <br><br>
+                        Opt-3 (USD) = 390 <br><br>
+                        Opt-4 (USD) = 350
+                    </p>
+                </div>
+            </div>
+
+            <div class = "blog-item my-2 shadow">
+                <div class = "blog-item-top">
+                    <img src = "images/hotel-Le Grand, Galle.jpg" alt = "blog">
+                </div>
+                <div class = "blog-item-bottom">
+                    <a href = "#">Le Grand, Galle</a>
+                    <p class = "text">
+                        Opt-1 (USD) = 800 <br><br>
+                        Opt-2 (USD) = 750 <br><br>
+                        Opt-3 (USD) = 860 <br><br>
+                        Opt-4 (USD) = 790
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- end of blog section -->
+
+
+    <!-- footer -->
+    <footer class = "py-4">
+        <div class = "container footer-row">
+            <div class = "footer-item">
+                <a href = "index.html" class = "site-brand">
+                    Best<span>Tours</span>
+                </a>
+                <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium reiciendis ipsa suscipit veritatis voluptate.</p>
+            </div>
+
+            <div class = "footer-item">
+                <h2>Follow us on: </h2>
+                <ul class = "social-links">
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href = "#">Sri Lanka</a></li>
+                    <li><a href = "#">England</a></li>
+                    <li><a href = "#">National Park</a></li>
+                    <li><a href = "#">Coast Beaches</a></li>
+                    <li><a href = "#">Egypt</a></li>
+                    <li><a href = "#">China</a></li>
+                    <li><a href = "#">African Safari</a></li>
+                </ul>
+            </div>
+
+            <div class = "subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class = "flex">
+                    <input type = "email" placeholder="Enter Email" class = "form-control">
+                    <input type = "submit" class = "btn" value = "Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+<!-- js -->
+<script src = "js/script.js"></script>
+<script>
+
+</script>
+    </div>
+</body>
+</html>
